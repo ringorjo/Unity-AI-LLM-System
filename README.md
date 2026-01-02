@@ -1,5 +1,12 @@
 # Low-Latency LLM Consumption Systems
 
+<p align="left">
+  <img src="https://github.com/ringorjo/VirtualRealityProjects/blob/main/gif/AI.gif" width="500px">
+</p>
+
+
+ [**Watch Demo Video**](https://youtu.be/HNy9f1PpM2I)
+
 > Realtime AI integration for Unity using WebSockets, streaming audio, and scalable multi-agent architectures.
 
 ---
