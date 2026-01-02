@@ -1,0 +1,18 @@
+{
+  "name": "com.xennialdigital.services",
+  "version": "1.0.25",
+  "displayName": "Xennial Services",
+  "unity": "2022.3",
+  "description": "Service locator and interfaces to use it.",
+  "keywords": [
+    "services",
+    "locator"
+  ],
+  "author": {
+    "name": "Xennial Development Team"
+  },
+  "repository": {
+    "url": "http://186.28.57.76:3000/Xennial/Services.git",
+    "type": "git"
+  }
+}

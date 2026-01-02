@@ -1,0 +1,36 @@
+{
+    "name": "Services.IA",
+    "rootNamespace": "",
+    "references": [
+        "GUID:bfd16a72bda7f05458c6fc32677c680f",
+        "GUID:8a39c32d10d630847a82d7d95022df82",
+        "GUID:7fc7076089fdfbc4399cba40cc3b0dd6",
+        "GUID:4504b1a6e0fdcc3498c30b266e4a63bf",
+        "GUID:910a956078d2ff4429c717211dcfaecb",
+        "GUID:8bbcefc153e1f1b4a98680670797dd16",
+        "GUID:1c28d8b71ced07540b7c271537363cc6",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:cf7c06d97d9c3b7db881733f839f5ae3",
+        "GUID:d5ad700322279cc408ce4203c02ebdf9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.meta.xr.sdk.voice",
+            "expression": "71.0.0",
+            "define": "XENNIAL_WIT"
+        },
+        {
+            "name": "ai.undream.llm",
+            "expression": "2.3.0",
+            "define": "LLMUNITY"
+        }
+    ],
+    "noEngineReferences": false
+}

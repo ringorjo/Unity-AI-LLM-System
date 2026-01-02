@@ -1,0 +1,20 @@
+{
+    "name": "Services.AI.AIProcedureHelp",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8a39c32d10d630847a82d7d95022df82",
+        "GUID:bfd16a72bda7f05458c6fc32677c680f",
+        "GUID:4c198e3e4e494de42bcbd3f17ffa11a0",
+        "GUID:00f233264c1927b44936bae6f67902b3",
+        "GUID:13a3ba0d9f31dbd4197dce226043f45d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

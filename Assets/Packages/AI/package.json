@@ -1,0 +1,63 @@
+{
+  "name": "com.xennialdigital.ai",
+  "version": "1.0.212",
+  "displayName": "Xennial AI Module",
+  "unity": "2022.3",
+  "description": "This package contains everything about AI.",
+  "keywords": [
+    "AI"
+  ],
+  "author": {
+    "name": "Xennial Development Team"
+  },
+    "dependencies": {
+        "com.meta.xr.sdk.voice": "67.0.0",
+        "com.unity.webrtc": "3.0.0-pre.8"
+    },
+    "repository": {
+        "url": "http://72.60.29.116:3000/Xennial/AI.git",
+        "type": "git"
+    },
+  "samples": [
+    {
+        "displayName": "Assistant AI",
+        "description": "This is a collection of interactions to use AI ",
+        "path": "Samples~/OpenAI/Assistants"
+    },
+    {
+        "displayName": "Realtime AI",
+        "description": "This is a collection of interactions to use AI ",
+        "path": "Samples~/OpenAI/Realtime"
+    },
+     {
+        "displayName": "ElevenLabs",
+        "description": "Use ConversationalAI API for Interaction With AI ",
+        "path": "Samples~/ElevenLabs/ConversationalAI"
+    },
+    {
+        "displayName": "Procedure Helper AI",
+        "description": "Use a Llama model for procedure Help ",
+        "path": "Samples~/AIProcedureHelp"
+    },
+    {
+        "displayName": "AI Report ",
+        "description": "Use a reasoning model to give you a evalulation resume ",
+        "path": "Samples~/AIReport"
+    },
+    {
+        "displayName": "Mock AI Response",
+        "description": "Define some Baked response for Mock AI Response",
+        "path": "Samples~/MockAIResponse"
+    },
+    {
+        "displayName": "AI Task Manager Interaction",
+        "description": "Validate some Interaction based on AI Dialog and Action ",
+        "path": "Samples~/OpenAI/TaskManagerDemo"
+    },
+    {
+      "displayName": "Run local AI Models",
+      "description": "Sample to use LLMUnity plugin to run local AI model on device ",
+      "path": "Samples~/LLMUnity"
+  }
+  ]
+}

@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7fabcb27fe16f4c997bf603b58db12, type: 3}
+  m_Name: FunctionCallTemplate
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: tools
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Xennial.AI.Tools, Xennial.IA]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Xennial.AI.Tools, Xennial.IA
+    - Name: type
+      Entry: 1
+      Data: function
+    - Name: name
+      Entry: 1
+      Data: GetBodyActionData
+    - Name: description
+      Entry: 1
+      Data: "Create a function that receives a natural language instruction and extracts
+        two key elements: an action and a body part. If the body part includes a
+        specific direction (such as \"left\" or \"right\"), this direction should
+        be included within the body part word.\r\n\r\nThe response should be a JSON
+        with the keys action (action) and bodypart (body part), ensuring that both
+        elements are always present in the response.\r\n\r\nExamples:\r\n\r\nInput:
+        \"Stick out your tongue please.\"\r, Output: {\"action\": \"Stick\", \"bodypart\":
+        \"tongue\"}\r\n\r\nInput: \"Touch your tongue to the roof of your mouth.\"\r.
+        Output: {\"action\": \"Touch\", \"bodypart\": \"tongue\"}\r\n\r\nInput: \"Move
+        your left arm.\"\r. Output: {\"action\": \"move\", \"bodypart\": \"leftarm\"}\r\n\r\nInput:
+        \"Now push against my palms.\"\r. Output: {\"action\": \"push\", \"bodypart\":
+        \"hands\"}"
+    - Name: parameters
+      Entry: 7
+      Data: 2|Xennial.AI.Parameters, Xennial.IA
+    - Name: type
+      Entry: 1
+      Data: object
+    - Name: properties
+      Entry: 7
+      Data: 3|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Xennial.AI.SchemaTemplate,
+        Xennial.IA]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 4|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: action
+    - Name: $v
+      Entry: 7
+      Data: 5|Xennial.AI.SchemaTemplate, Xennial.IA
+    - Name: type
+      Entry: 1
+      Data: string
+    - Name: description
+      Entry: 1
+      Data: Action that will be performed by a part of the body
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: bodypart
+    - Name: $v
+      Entry: 7
+      Data: 6|Xennial.AI.SchemaTemplate, Xennial.IA
+    - Name: type
+      Entry: 1
+      Data: string
+    - Name: description
+      Entry: 1
+      Data: Part of the body that will be affected by a specific action
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: required
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 1
+      Data: action
+    - Name: 
+      Entry: 1
+      Data: bodypart
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  JsonFormat: '{   "name": "GetBodyActionData",   "description": "Return the Action
+    and body part. Call this function when the user asks you a sentence such as:
+    Could you move your head, open your mouth or open your eyes. If the user doesn''t
+    provide the action or the body part, tell the user you are confused and ask for
+    the missing information. When the action phrase has more than one command please
+    use the first one. For example stick out your tongue: the action is stick and
+    the bodypart is tongue. Please if the user ask you for a previous function called,
+    please call it again no matter how many times the user ask the same.",   "parameters":
+    {     "type": "object",     "properties": {       "action": {         "type":
+    "string",         "description": "Action that will be performed by a part of
+    the body"       },       "bodypart": {         "type": "string",         "description":
+    "Part of the body that will be affected by a specific action"       }     },    
+    "required": [       "action",       "bodypart"     ]   } } '

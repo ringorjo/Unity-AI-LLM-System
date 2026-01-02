@@ -1,0 +1,1111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &61143532719096072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6501968890821883034}
+  - component: {fileID: 1678085752109093241}
+  m_Layer: 0
+  m_Name: WebSocketConnection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6501968890821883034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61143532719096072}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 360904563351361462}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1678085752109093241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61143532719096072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e392fd7d562b0742954c8f36892d97d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _connectOnStart: 1
+  _resiveMessagesLog: 0
+  _sendMessageLog: 0
+  _allowAutoReconection: 1
+--- !u!1 &205748669239506397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8083610665010079066}
+  - component: {fileID: 8883684144233239616}
+  m_Layer: 0
+  m_Name: ResponseCreate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8083610665010079066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205748669239506397}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7276342166114654170}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8883684144233239616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205748669239506397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84aec3741ed87c54c961f9b5d657ade1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _responseHandlers
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Services.AI.IAPIResponseHandler,
+        Services.IA]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Services.AI.RealtimeResponseAudioDelta, Services.IA
+    - Name: _streamResponse
+      Entry: 5
+      Data: true
+    - Name: _lastResponse
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|Services.AI.RealtimeConversationInputTranscriptionCompleted, Services.IA
+    - Name: _lastResponse
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _responseCreate
+      Entry: 7
+      Data: 3|Services.AI.ResponseCreateData, Services.IA
+    - Name: event_id
+      Entry: 1
+      Data: Response_001
+    - Name: type
+      Entry: 1
+      Data: response.create
+    - Name: response
+      Entry: 7
+      Data: 4|Services.AI.Response, Services.IA
+    - Name: modalities
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 1
+      Data: text
+    - Name: 
+      Entry: 1
+      Data: audio
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: instructions
+      Entry: 1
+      Data: "Play the role of a female patient named Judith attending a medical consultation
+        at Coral Gables Hospital. Allow the user to conduct the medical assessment.
+        Maintain consistent character, providing realistic context and very short
+        responses.\r\n\r\n# Background Information\r\n- Name: Judith Ramirez\r\n-
+        Birthdate: january ninth, 1960\r\n- Occupation: Software engineer\r\n- Location:
+        Coral Gables, Florida\r\n- Family: Lives with partner and two   (ages 24
+        and 27 years old)\r\n- Health: Generally healthy; maintains a healthy diet;
+        no allergies\r\n- Habits: Does not smoke, consumes alcohol occasionally\r\n-
+        Medical History: No significant past medical issues\r\n- In general, you
+        are feeling well today\r\n\r\n# Response Guidelines\r\n- keep interaction
+        between you and the user in English only\r\n- Remember, you are the patient,
+        so answer accordingly.\r\n- Respond only to relevant medical questions. That
+        includes your background information such as  birthday, Occupation, Location,
+        your name,your age etc. \r\n- Keep answers short and concise.\r\n- If asked
+        about lifestyle, work, or family, refer to the background without elaborating
+        excessively.\r\n- Redirect off-topic discussions to your health evaluation,
+        expressing preference for maintaining on topic. Example1: \"I am not sure
+        this is relevant. Let's focus on my health\" , Example2: \"I prefer to keep
+        to my assessment\"\r\n- Avoid breaking character in all responses.\r\n-\tIf
+        you are asked about consent to proceed with the assessment say \"Sure\"\r\n-\tIf
+        I ask you to say something please repeat the example i give you Example1 
+        \"If I say repeat 99 \"  you will say \"99\"\r\n- When I give you a command
+        such as \"Please look up for me\", \"look at me again\", \"keep looking at
+        me\" or \"show me your teeth\" you will respond with  \"Ok\" \r\n- When I
+        told you about your Symmetrical posterior chest you should respond happy.\r\n-
+        When ask you using \"EXCEPTION\" you alway response \"Sorry I Can not do
+        that\"\r\n\r\n# Response Style\r\n- Use short replies for symptoms not experienced,
+        such as \"no,\",\"none\",\"nope\" or \"i am fine\" \r\n  Example 1: If asked
+        \"Do you have neck pain?\" answer with \"nope\" or \"not at all\" instead
+        of a \r\n  longer explanation.\r\nExample 2: If asked \"Have you experienced
+        chest pain?\" answer with \"none\" or \"i am fine\" instead of \"No, i' haven't
+        experienced chest pain.\"\r\n- For physical examination instructions like
+        \"raise your chin\" or \"look at my nose,\" respond with \"ok\" or \"sure.\"\r\n-
+        When asked open-ended questions like \"How do you feel today?\" answer briefly
+        but naturally, e.g., \"I'm feeling fine, thanks.\"\r\n- If uncertain or if
+        the question isn't clear, respond with \"Can you repeat what you said?\"
+        or  \" I didn't understand\"\r\n# Emotional Tone\r\n- Maintain a polite and
+        patient tone.\r\n- If you don\u2019t understand a question or instruction,
+        politely ask for clarification.\r\n# Handling Repetitive or Irrelevant Questions\r\n-
+        Respond to repeated questions with polite acknowledgment: \"As I mentioned
+        earlier, I haven\u2019t experienced that symptom.\"\r\n- Politely redirect
+        irrelevant questions: \"Can we keep to my health\" or \"Can we keep to my
+        assessment\""
+    - Name: voice
+      Entry: 3
+      Data: 0
+    - Name: output_audio_format
+      Entry: 1
+      Data: pcm16
+    - Name: tools
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Services.AI.Tools, Services.IA]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tool_choice
+      Entry: 1
+      Data: auto
+    - Name: temperature
+      Entry: 4
+      Data: 0.8
+    - Name: max_output_tokens
+      Entry: 3
+      Data: 4096
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _config: {fileID: 11400000, guid: 0eee3a636fc1a704190dd4f8a13e2382, type: 2}
+--- !u!1 &1671851352394302755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4681941126956032032}
+  - component: {fileID: 2911088604691286683}
+  m_Layer: 0
+  m_Name: AIOutputResponses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4681941126956032032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671851352394302755}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6217117391017385632}
+  m_Father: {fileID: 360904563351361462}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2911088604691286683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671851352394302755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a078d3cb9c02f774f9440e54c35a9694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 7584136146908088612}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _iaHandler
+      Entry: 10
+      Data: 0
+  _aiStreamResponses: []
+  _aiSingleResponses: []
+--- !u!1 &1692630840206358639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5513499870345639846}
+  - component: {fileID: 7343815271007545414}
+  m_Layer: 0
+  m_Name: SessionCreate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5513499870345639846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692630840206358639}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7276342166114654170}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7343815271007545414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692630840206358639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aebf281e16bcf034f92207e5a5854c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _responseHandlers
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Services.AI.IAPIResponseHandler,
+        Services.IA]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Services.AI.RealtimeSessionCreated, Services.IA
+    - Name: _isLastResponse
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|Services.AI.RealtimeSessionUpdated, Services.IA
+    - Name: _lastResponse
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _sessionUpdate
+      Entry: 7
+      Data: 3|Services.AI.SessionUpdateData, Services.IA
+    - Name: event_id
+      Entry: 1
+      Data: SessionCreate_001
+    - Name: type
+      Entry: 1
+      Data: session.update
+    - Name: session
+      Entry: 7
+      Data: 4|Services.AI.RealtimeSession, Services.IA
+    - Name: modalities
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 1
+      Data: text
+    - Name: 
+      Entry: 1
+      Data: audio
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: instructions
+      Entry: 1
+      Data: "Play the role of a female patient named Judith attending a medical consultation
+        at Coral Gables Hospital. Allow the user to conduct the medical assessment.
+        Maintain consistent character, providing realistic context and very short
+        responses.\r\n\r\n# Background Information\r\n- Name: Judith Ramirez\r\n-
+        Birthdate: january ninth, 1960\r\n- Occupation: Software engineer\r\n- Location:
+        Coral Gables, Florida\r\n- Family: Lives with partner and two   (ages 24
+        and 27 years old)\r\n- Health: Generally healthy; maintains a healthy diet;
+        no allergies\r\n- Habits: Does not smoke, consumes alcohol occasionally\r\n-
+        Medical History: No significant past medical issues\r\n- In general, you
+        are feeling well today\r\n\r\n# Response Guidelines\r\n- keep interaction
+        between you and the user in English only\r\n- Remember, you are the patient,
+        so answer accordingly.\r\n- Respond only to relevant medical questions. That
+        includes your background information such as  birthday, Occupation, Location,
+        your name,your age etc. \r\n- Keep answers short and concise.\r\n- If asked
+        about lifestyle, work, or family, refer to the background without elaborating
+        excessively.\r\n- Redirect off-topic discussions to your health evaluation,
+        expressing preference for maintaining on topic. Example1: \"I am not sure
+        this is relevant. Let's focus on my health\" , Example2: \"I prefer to keep
+        to my assessment\"\r\n- Avoid breaking character in all responses.\r\n-\tIf
+        you are asked about consent to proceed with the assessment say \"Sure\"\r\n-\tIf
+        I ask you to say something please repeat the example i give you Example1 
+        \"If I say repeat 99 \"  you will say \"99\"\r\n- When I give you a command
+        such as \"Please look up for me\", \"look at me again\", \"keep looking at
+        me\" or \"show me your teeth\" you will respond with  \"Ok\" \r\n- When I
+        told you about your Symmetrical posterior chest you should respond happy.\r\n-
+        When ask you using \"EXCEPTION\" you alway response \"Sorry I Can not do
+        that\"\r\n\r\n# Response Style\r\n- Use short replies for symptoms not experienced,
+        such as \"no,\",\"none\",\"nope\" or \"i am fine\" \r\n  Example 1: If asked
+        \"Do you have neck pain?\" answer with \"nope\" or \"not at all\" instead
+        of a \r\n  longer explanation.\r\nExample 2: If asked \"Have you experienced
+        chest pain?\" answer with \"none\" or \"i am fine\" instead of \"No, i' haven't
+        experienced chest pain.\"\r\n- For physical examination instructions like
+        \"raise your chin\" or \"look at my nose,\" respond with \"ok\" or \"sure.\"\r\n-
+        When asked open-ended questions like \"How do you feel today?\" answer briefly
+        but naturally, e.g., \"I'm feeling fine, thanks.\"\r\n- If uncertain or if
+        the question isn't clear, respond with \"Can you repeat what you said?\"
+        or  \" I didn't understand\"\r\n# Emotional Tone\r\n- Maintain a polite and
+        patient tone.\r\n- If you don\u2019t understand a question or instruction,
+        politely ask for clarification.\r\n# Handling Repetitive or Irrelevant Questions\r\n-
+        Respond to repeated questions with polite acknowledgment: \"As I mentioned
+        earlier, I haven\u2019t experienced that symptom.\"\r\n- Politely redirect
+        irrelevant questions: \"Can we keep to my health\" or \"Can we keep to my
+        assessment\""
+    - Name: voice
+      Entry: 3
+      Data: 0
+    - Name: input_audio_format
+      Entry: 1
+      Data: pcm16
+    - Name: output_audio_format
+      Entry: 1
+      Data: pcm16
+    - Name: input_audio_transcription
+      Entry: 6
+      Data: 
+    - Name: turn_detection
+      Entry: 6
+      Data: 
+    - Name: tools
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Services.AI.Tools, Services.IA]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tool_choice
+      Entry: 1
+      Data: auto
+    - Name: temperature
+      Entry: 4
+      Data: 0.8
+    - Name: max_response_output_tokens
+      Entry: 3
+      Data: 4096
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _config: {fileID: 11400000, guid: 0eee3a636fc1a704190dd4f8a13e2382, type: 2}
+  _initMicOnSessionUpdated: 1
+--- !u!1 &1974649020059169482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 360904563351361462}
+  - component: {fileID: 7584136146908088612}
+  m_Layer: 0
+  m_Name: RealtimeAI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &360904563351361462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974649020059169482}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6501968890821883034}
+  - {fileID: 7276342166114654170}
+  - {fileID: 3059422615071025522}
+  - {fileID: 4681941126956032032}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7584136146908088612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974649020059169482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 914b52527d376c643b968824d9b02743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 7343815271007545414}
+    - {fileID: 1391190173659283115}
+    - {fileID: 8883684144233239616}
+    - {fileID: 1678085752109093241}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _responsabilityAPIRequests
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Services.AI.IAPIRequestHandler,
+        Services.IA]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _apisOverrideConfigurationList
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Services.AI.ISetAIConfig, Services.IA]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _useAService: 1
+  _aiConfigData: {fileID: 11400000, guid: 0eee3a636fc1a704190dd4f8a13e2382, type: 2}
+--- !u!1 &2060877286784844936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6217117391017385632}
+  - component: {fileID: 257204816419790228}
+  - component: {fileID: 2165920652914320292}
+  m_Layer: 0
+  m_Name: AudioStreamingResponse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6217117391017385632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060877286784844936}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4681941126956032032}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &257204816419790228
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060877286784844936}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &2165920652914320292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060877286784844936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10484ec9669e4194a8e4d744e5950678, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Type: 2
+  OnSamplesUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+  _inputSampleRate: 24000
+  _hasData: 0
+--- !u!1 &4555755617757297630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8790210559407448783}
+  - component: {fileID: 1391190173659283115}
+  m_Layer: 0
+  m_Name: ConversationItemCreate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8790210559407448783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4555755617757297630}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7276342166114654170}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1391190173659283115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4555755617757297630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b26bb4aa1e2534bbd3452d46e4eb83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 6857771354319994184}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _responseHandlers
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Services.AI.IAPIResponseHandler,
+        Services.IA]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _conversationCreate
+      Entry: 7
+      Data: 1|Services.AI.ConversationCreateData, Services.IA
+    - Name: event_id
+      Entry: 1
+      Data: ConversationCreate_001
+    - Name: type
+      Entry: 1
+      Data: conversation.item.create
+    - Name: previous_item_id
+      Entry: 6
+      Data: 
+    - Name: item
+      Entry: 7
+      Data: 2|Services.AI.ItemConversation, Services.IA
+    - Name: id
+      Entry: 1
+      Data: Item_001
+    - Name: type
+      Entry: 1
+      Data: message
+    - Name: role
+      Entry: 1
+      Data: user
+    - Name: content
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _recieverDataCollaborator
+      Entry: 10
+      Data: 0
+  _config: {fileID: 11400000, guid: 0eee3a636fc1a704190dd4f8a13e2382, type: 2}
+--- !u!1 &4806970490121524761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7276342166114654170}
+  m_Layer: 0
+  m_Name: ClientEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7276342166114654170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806970490121524761}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5513499870345639846}
+  - {fileID: 8790210559407448783}
+  - {fileID: 8083610665010079066}
+  m_Father: {fileID: 360904563351361462}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6335061894980894824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3059422615071025522}
+  - component: {fileID: 3439385151883903821}
+  - component: {fileID: 2981984907326569394}
+  - component: {fileID: 3485260308011272225}
+  - component: {fileID: 6857771354319994184}
+  m_Layer: 0
+  m_Name: MicrophoneService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3059422615071025522
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6335061894980894824}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 360904563351361462}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3439385151883903821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6335061894980894824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff344ca25ce7eb4895914cc92b0a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frequency: 16000
+  _initOnStart: 1
+  _enableStream: 0
+  _bufferSize: 4096
+  _autoRecording: 1
+  _updateTime: 0.3
+  _minActivationThreshold: 0.05
+  _minRecordingTreshold: 0.01
+  _keepAlive: 1
+  _saveRecordOnStop: 0
+  _useEcho: 0
+  _output: {fileID: 0}
+  maxSample: 0
+--- !u!82 &2981984907326569394
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6335061894980894824}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &3485260308011272225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6335061894980894824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521126c55102bb8498defa5b84be407a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 6857771354319994184}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _micDataCollaborator
+      Entry: 10
+      Data: 0
+  _initMicOnStart: 1
+  _audioClip: {fileID: 0}
+  _config: {fileID: 11400000, guid: 7570b6aeb4254f345b746d26feab8a2d, type: 2}
+--- !u!114 &6857771354319994184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6335061894980894824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bce7b9d406492ca45895654a0c82ea17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

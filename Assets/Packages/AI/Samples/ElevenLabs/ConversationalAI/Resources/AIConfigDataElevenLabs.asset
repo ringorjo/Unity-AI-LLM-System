@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454154bedd37e8e48b6d0167b3b3eaf8, type: 3}
+  m_Name: AIConfigDataElevenLabs
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _extraData
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: AgentId
+    - Name: $v
+      Entry: 1
+      Data: agent_8201k1kkv07qfvar8q3c53vet0pq
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Url: wss://api.elevenlabs.io
+  UseToken: 0
+  Token: 
+  AIModel: v1/convai/conversation
+  AIProvider: Eleven Labs
+  AIModelName: Conversational AI
+  Version: 
+  SystemPrompt: 
+  UseFunctionCallTemplate: 0
+  FunctionCallData: {fileID: 11400000, guid: 450ad50c6253c494494a76e088c34679, type: 2}
+  UpdateFromUrl: 0
+  FileUrl: https://vrtalks.blob.core.windows.net/ai-folder/JudithPrompt.txt

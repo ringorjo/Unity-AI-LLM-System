@@ -1,0 +1,31 @@
+{
+  "name": "com.xennialdigital.api",
+  "version": "1.0.108",
+  "displayName": "Xennial API",
+  "unity": "2022.3",
+  "description": "This package contains the required files to connect our projects to Xennial API and some samples.",
+  "keywords": [
+    "API",
+    "backend",
+    "platform",
+    "xdcustomer",
+    "portal"
+  ],
+  "author": {
+    "name": "Xennial Development Team"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "repository": {
+    "url": "http://186.28.57.76:3000/Xennial/XennialAPI.git",
+    "type": "git"
+  },
+  "samples": [
+    {
+      "displayName": "Preconnection",
+      "description": "This sample its the scene base for preconection with working login V2.0",
+      "path": "Samples~/Preconnection"
+    }
+  ]
+}

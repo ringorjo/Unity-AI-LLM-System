@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afbed68aeb49c284f8e81bb4a1eaacb8, type: 3}
+  m_Name: ElevenLabVoices
+  m_EditorClassIdentifier: 
+  voices:
+  - name: Jessica Anne Bogart - Conversations
+    voice_id: g6xIsTj2HwM6VR4iXFCw
+  - name: W. L. Oxley
+    voice_id: gOkFV1JMCt0G0n9xmBwV
+  - name: "Sof\xEDa \u2013 Soft & Warm"
+    voice_id: b2htR0pMe28pYwCY9gnP
+  - name: Policia Mujer
+    voice_id: DLQ6TeBt9PDe6cDxxe4h
+  - name: 'Gabriel - Confident $ Gentle '
+    voice_id: 8AMr87HV4PA3NKEl5q4O
+  - name: Jack
+    voice_id: QLDNM6o3lDbtfJLUO890
+  - name: EJ
+    voice_id: EjZUCudFvhubUfpbsHxh
+  - name: Jay - Asian, Singapore
+    voice_id: mbL34QDB5FptPamlgvX5
+  - name: 'Leoni Vergara '
+    voice_id: pBZVCk298iJlHAcHQwLr
+  - name: Cassidy
+    voice_id: 56AoDkrOh6qfVPDXZ7Pt
